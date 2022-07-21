@@ -1,5 +1,5 @@
 # https://codefresh.io/docs/docs/learn-by-example/golang/golang-hello-world/
-FROM golang:1.11
+FROM golang:1.18.1
 
 # Set the Current Working Directory inside the container
 WORKDIR $GOPATH/src/git.sr.ht/~tsukii/pong
