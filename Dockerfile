@@ -10,6 +10,9 @@ COPY . .
 # Download all the dependencies
 RUN go get -d -v ./...
 
+# Build the package
+RUN go build ./...
+
 # Install the package
 RUN go install -v ./...
 
